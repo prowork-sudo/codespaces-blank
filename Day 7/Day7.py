@@ -6,7 +6,6 @@ import art
 print(art.logo)
 
 chosen_word = random.choice(word_list.word_list)
-print(chosen_word)
 
 
 placeholder = len(chosen_word) * "_ "
