@@ -29,6 +29,7 @@ while running:
     cont = input("Are there any other bidders? 'yes' or 'no' \n")
     if cont == 'no':
         running = False
+    print("\n" *200)
 
 
 highest_bidder(secreat_auction_bid)
