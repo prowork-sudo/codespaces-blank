@@ -1,3 +1,5 @@
+import art
+
 def add(a,b):
     return a + b
 
@@ -19,6 +21,8 @@ methods = {"+":add,
 def calc():
     cont = True
     cont_new = True
+
+    print(art.logo)
 
     while cont_new == True:
         first = int(input("what is your first number? \n"))
