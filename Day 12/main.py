@@ -25,4 +25,5 @@ while a != 0:
     elif choice == rand:
         print("you win")
         break
+    
     a -= 1
