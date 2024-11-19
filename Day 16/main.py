@@ -1,9 +1,8 @@
-import turtle
+from menu import Menu, MenuItem
+from coffee_maker import CoffeeMaker
+from money_machine import MoneyMachine
 
-
-timmy = turtle.Turtle()
-print(timmy)
-print("hey")
-myscreen = turtle.Screen()
-print(myscreen.canvheight, myscreen.canvwidth)
-myscreen.exitonclick()
+a = CoffeeMaker()
+b = MoneyMachine()
+a.report()
+b.report()
