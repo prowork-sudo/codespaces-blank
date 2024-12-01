@@ -19,3 +19,6 @@
 # print(user_1.following)
 # print(user_2.followers)
 # print("change")
+
+imoprt question from question
+import question_data from data
