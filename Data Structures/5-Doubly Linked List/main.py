@@ -63,6 +63,8 @@ class DoublyLinkedList:
         self.length -= 1
         return temp
     
+# try parallel compute for get and set 
+
 
     def print_list(self):
         temp = self.head
