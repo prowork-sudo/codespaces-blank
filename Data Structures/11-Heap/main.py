@@ -58,7 +58,7 @@ class MaxHeap():
 my_heap = MaxHeap()
 my_heap.insert(5)
 my_heap.insert(100)
-my_heap.insert(88)
+my_heap.insert(88 )
 my_heap.insert(7)
 my_heap.insert(78)
 my_heap.remove()
