@@ -1,4 +1,4 @@
-def largest_square(bin_array: list[list[int]]) -> int:
+'''def largest_square(bin_array: list[list[int]]) -> int:
     if not bin_array or not bin_array[0]:
         return 0
     n = len(bin_array)
@@ -28,3 +28,9 @@ bin_array1 = [
 
 result1 = largest_square(bin_array1)
 print(f"Largest square size for bin_array1: {result1}")  # Output: 3
+'''
+
+
+n = [1, 2, 3, 4]
+for i in range(len(n) - 1, -1, -1):
+    print(i)

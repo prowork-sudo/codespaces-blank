@@ -1,7 +1,4 @@
 #good to have prime number
-from re import S
-
-
 class HashTable:
     def __init__(self, size=7):
         self.data_map = [None] * 7

@@ -8,5 +8,6 @@ def insertion_sort(my_list):
             j -= 1
     return my_list
 
+
 my_list = [5,4,3,2,1]
 print(insertion_sort(my_list))
